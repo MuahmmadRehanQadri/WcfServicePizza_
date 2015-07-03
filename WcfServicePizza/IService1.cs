@@ -28,7 +28,7 @@ namespace WcfServicePizza
             BodyStyle=WebMessageBodyStyle.WrappedRequest,
             RequestFormat=WebMessageFormat.Json,
             ResponseFormat=WebMessageFormat.Json)]
-        bool Login(string phoneNo, string password);
+        string Login(string phoneNo, string password);
 
         [OperationContract]
         [WebInvoke(Method="POST", BodyStyle=WebMessageBodyStyle.WrappedRequest,RequestFormat=WebMessageFormat.Json,ResponseFormat=WebMessageFormat.Json,UriTemplate="CreatePizza")]

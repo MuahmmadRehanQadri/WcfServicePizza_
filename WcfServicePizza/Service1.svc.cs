@@ -30,7 +30,7 @@ namespace WcfServicePizza
             }
         }
 
-        public bool Login(string phoneNo, string password)
+        public string Login(string phoneNo, string password)
         {
             try
             {
@@ -38,14 +38,13 @@ namespace WcfServicePizza
                 DatabasePizzaEntities db = new DatabasePizzaEntities();
                 Customer customer = db.Customers.Where(c => c.PhoneNo == phoneNoDecimal && c.Password == password).SingleOrDefault();
                 if (customer == null)
-                    return false;
-                return true;
+                    return "false";
+                return "true";
             }
             catch (Exception e)
             {
-                
+                return "I'm here"+e.InnerException.ToString();
             }
-            return false;
         }
 
         public bool CreatePizza(Pizza pizza)
