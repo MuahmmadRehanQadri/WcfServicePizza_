@@ -1,0 +1,10 @@
+c:\users\muhammad rehan qadri\documents\visual studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\WcfServicePizza.dll.config
+c:\users\muhammad rehan qadri\documents\visual studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\WcfServicePizza.dll
+c:\users\muhammad rehan qadri\documents\visual studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\WcfServicePizza.pdb
+c:\users\muhammad rehan qadri\documents\visual studio 2013\Projects\WcfServicePizza\WcfServicePizza\obj\Debug\WcfServicePizza.dll
+c:\users\muhammad rehan qadri\documents\visual studio 2013\Projects\WcfServicePizza\WcfServicePizza\obj\Debug\WcfServicePizza.pdb
+C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\EntityFramework.dll
+C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\EntityFramework.SqlServer.dll
+C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\EntityFramework.xml
+C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\EntityFramework.SqlServer.xml
+C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\obj\Debug\WcfServicePizza.csprojResolveAssemblyReference.cache
