@@ -32,12 +32,20 @@ namespace WcfServicePizza
 
         public bool Login(string phoneNo, string password)
         {
-            decimal phoneNoDecimal = Decimal.Parse(phoneNo);
-            DatabasePizzaEntities db = new DatabasePizzaEntities();
-            Customer customer = db.Customers.Where(c => c.PhoneNo==phoneNoDecimal && c.Password == password).SingleOrDefault();
-            if (customer == null)
-                return false;
-            return true;
+            try
+            {
+                decimal phoneNoDecimal = Decimal.Parse(phoneNo);
+                DatabasePizzaEntities db = new DatabasePizzaEntities();
+                Customer customer = db.Customers.Where(c => c.PhoneNo == phoneNoDecimal && c.Password == password).SingleOrDefault();
+                if (customer == null)
+                    return false;
+                return true;
+            }
+            catch (Exception e)
+            {
+                
+            }
+            return false;
         }
 
         public bool CreatePizza(Pizza pizza)
