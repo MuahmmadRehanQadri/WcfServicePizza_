@@ -7,3 +7,4 @@ C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePi
 C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\EntityFramework.SqlServer.dll
 C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\EntityFramework.xml
 C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\bin\EntityFramework.SqlServer.xml
+C:\Users\Muhammad Rehan Qadri\Documents\Visual Studio 2013\Projects\WcfServicePizza\WcfServicePizza\obj\Debug\WcfServicePizza.csprojResolveAssemblyReference.cache
